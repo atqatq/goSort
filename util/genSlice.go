@@ -5,6 +5,7 @@ import (
 	"time"
 )
 
+// GenSlice returns slice of given size with random ints
 func GenSlice(size int) []int {
 
 	slice := make([]int, size, size)
